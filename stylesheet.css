@@ -22,7 +22,7 @@ img {
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: rgba(201, 24, 24, 0.5);
+    background-color: rgba(201, 24, 24);
     overflow: auto;
   }
   
@@ -30,7 +30,7 @@ img {
   .navbar a {
     float: left;
     padding: 6px 4px;
-    color: #fbe573;
+    color: rgb(156, 155, 155);
     text-decoration: none;
     font-size: 20px;
     width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -39,13 +39,13 @@ img {
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-    background-color: white;
+    background-color: rgb(156, 155, 155);
     color: silver;
   }
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: rgba(201, 24, 24, 0.5);
+    background-color: rgb(201, 24, 24);
     font-weight: bold;
     font-size: 35px;
     font-family: Brush Script MT, Brush Script Std, cursive;
