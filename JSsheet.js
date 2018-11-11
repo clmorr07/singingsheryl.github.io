@@ -13,11 +13,13 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    if (x.className === "navbar") {
         x.className += " responsive";
     } else {
-        x.className = "topnav";
+        x.className = "navbar";
     }
 }
