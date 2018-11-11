@@ -62,6 +62,7 @@ img {
     padding: .5em 0;
     background-color: rgb(201, 24, 24);
     color: rgb(252, 220, 220);
+    font-weight: 400;
   }
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
   @media screen and (max-width: 700px) {
