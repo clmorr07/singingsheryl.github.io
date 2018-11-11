@@ -30,7 +30,7 @@ img {
   .navbar a {
     float: left;
     padding: 6px 4px;
-    color: rgb(156, 155, 155);
+    color: white;
     text-decoration: none;
     font-size: 20px;
     width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
