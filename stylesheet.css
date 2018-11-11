@@ -26,7 +26,7 @@ img {
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: rgba(201, 24, 24) !important;
+    background-color: rgba(201, 24, 24);
     overflow: auto;
     position: fixed;
   }
@@ -50,7 +50,7 @@ img {
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: rgb(201, 24, 24) !important;
+    background-color: rgb(201, 24, 24);
     font-weight: 400;
     font-size: 40px;
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -109,25 +109,10 @@ img {
         max-width: 100%;
     }
 }
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 700px) {
-    .navbar a {
-      float: left !important;
-      color: white;
-      text-decoration: none; 
-      font-size: 18px;
-      font-weight: bold;
-      width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-      text-align: center; /* If you want the text to be centered */
-      background-color: rgb(201, 24, 24)!important;
-    }
-    
-    /* Add a background color on mouse-over */
-    .navbar a:hover {
-      background-color: rgb(201, 24, 24) !important;
-      color: silver;
-    }
-  }
+
+  .navbar .icon {
+    display: none;
+}
 
   @media screen and (max-width: 600px) {
     .navbar a:not(:third-child) {display: none;}
