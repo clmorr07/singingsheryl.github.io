@@ -31,7 +31,6 @@ body {
 }
 
 .topnav a {
-  float: left;
   display: block;
   color: white;
   text-align: center;
@@ -48,8 +47,7 @@ body {
 }
 
 .active {
-  background-color: white;
-  color: rgb(201, 24, 24);
+  background-color: rgb(201, 24, 24);
   font-weight: bold;
   font-size: 35px;
   font-family: Brush Script MT, Brush Script Std, cursive;
