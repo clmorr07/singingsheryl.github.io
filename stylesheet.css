@@ -73,5 +73,6 @@ img {
       display: block;
       width: 100%;
       text-align: left; /* If you want the text to be left-aligned on small screens */
+      background-color: rgb(201, 24, 24);
     }
   }
