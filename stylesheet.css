@@ -30,7 +30,7 @@ img {
   .navbar a {
     float: left;
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 18px;
     font-weight: bold;
     width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
@@ -46,8 +46,8 @@ img {
   /* Style the current/active link */
   .navbar a.active {
     background-color: rgb(201, 24, 24);
-    font-weight: bold;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 40px;
     font-family: Brush Script MT, Brush Script Std, cursive;
   }
 
