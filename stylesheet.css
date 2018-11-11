@@ -22,7 +22,7 @@ img {
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: rgba(201, 24, 24);
+    background-color: rgba(201, 24, 24) !important;
     overflow: auto;
     position: fixed;
   }
@@ -46,7 +46,7 @@ img {
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: rgb(201, 24, 24);
+    background-color: rgb(201, 24, 24) !important;
     font-weight: 400;
     font-size: 40px;
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -58,10 +58,10 @@ img {
   }
   
   .main-footer {
-    text-align: center !important;
-    padding: .5em 0 !important;
-    background-color: rgb(201, 24, 24) !important;
-    color: rgb(252, 220, 220) !important;
+    text-align: center;
+    padding: .5em 0;
+    background-color: rgb(201, 24, 24);
+    color: rgb(252, 220, 220);
   }
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
   @media screen and (max-width: 700px) {
