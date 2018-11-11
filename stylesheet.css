@@ -22,7 +22,7 @@ img {
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: rgb(201, 24, 24);
+    background-color: rgba(201, 24, 24, 0.5);
     overflow: auto;
   }
   
@@ -45,7 +45,7 @@ img {
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: rgb(201, 24, 24);;
+    background-color: rgba(201, 24, 24, 0.5);
     font-weight: bold;
     font-size: 35px;
     font-family: Brush Script MT, Brush Script Std, cursive;
