@@ -28,17 +28,19 @@ body {
 .topnav {
   overflow: hidden;
   background-color: rgba(201, 24, 24);
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
 }
 
 .topnav a {
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  width: 20%;
 }
 
 .topnav a:hover {
