@@ -69,6 +69,8 @@ img {
   .header {
     text-align: center;
     padding: 32px;
+    font-size: 1em;
+    text-decoration: underline;
 }
   .row {
     display: flex;
