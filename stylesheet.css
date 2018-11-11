@@ -39,7 +39,7 @@ img {
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-    background-color: rgb(156, 155, 155);
+    background-color: rgb(201, 24, 24);
     color: silver;
   }
   
