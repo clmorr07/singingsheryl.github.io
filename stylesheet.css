@@ -20,38 +20,45 @@ img {
 }
 
 /* Style the navigation menu */
-.navbar {
-    width: 100%;
-    background-color: rgba(201, 24, 24);
-    overflow: auto;
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: left;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
-  }
-  
-  /* Add a background color on mouse-over */
-  .navbar a:hover {
-    background-color: rgb(201, 24, 24);
-    color: silver;
-  }
-  
-  /* Style the current/active link */
-  .navbar a.active {
-    background-color: rgb(201, 24, 24);
-    font-weight: bold;
-    font-size: 35px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .video-responsive{
+.topnav {
+  overflow: hidden;
+  background-color: rgba(201, 24, 24);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: rgb(201, 24, 24);
+  color: silver;
+}
+
+.active {
+  background-color: white;
+  color: rgb(201, 24, 24);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
@@ -67,12 +74,24 @@ img {
 
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .navbar a {
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
       float: none;
       display: block;
-      width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
-      background-color: rgb(201, 24, 24);
+      text-align: left;
     }
   }
