@@ -24,6 +24,7 @@ img {
     width: 100%;
     background-color: rgba(201, 24, 24);
     overflow: auto;
+    position: fixed;
   }
   
   /* Navigation links */
@@ -56,6 +57,12 @@ img {
     flex-direction: row;
   }
   
+  .main-footer {
+    text-align: center;
+    padding: .5em 0;
+    background: rgb(201, 24, 24);
+    color: white;
+  }
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
   @media screen and (max-width: 700px) {
     .navbar a {
