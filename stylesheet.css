@@ -110,8 +110,20 @@ img {
     }
 }
 
-  .navbar .icon {
+@media (min-width:769px) {
+  .wrap {
+      min-height: calc(100vh - 89px);
+  }
+  .container {
+      width: 75%;
+      margin: 0 auto;
+      max-width: 1000px;
+  }
+
+  .topnav .icon {
     display: none;
+  }
+
 }
 
   @media screen and (max-width: 600px) {
