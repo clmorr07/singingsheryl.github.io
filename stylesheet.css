@@ -60,7 +60,7 @@ img {
   .main-footer {
     text-align: center;
     padding: .5em 0;
-    background: rgb(201, 24, 24);
+    background-color: rgb(201, 24, 24);
     color: white;
   }
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
