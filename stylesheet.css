@@ -111,6 +111,11 @@ img {
         flex: 100%;
         max-width: 100%;
     }
+
+  .navbar a{
+    display: inline;
+    background-color: rgb(201, 24, 24);
+  }
 }
 @media (min-width:769px) {
 .indent {
