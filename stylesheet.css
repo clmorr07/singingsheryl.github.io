@@ -77,6 +77,23 @@ img {
     font-weight: 400;
   }
 
+  .bio-img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.bg {
+  /* The image used */
+  background-image: url("BackgroudPic.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   .header {
     text-align: center;
     padding: 32px;
