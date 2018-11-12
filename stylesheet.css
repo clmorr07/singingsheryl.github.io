@@ -30,7 +30,7 @@ img {
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: rgba(201, 24, 24);
+    background-color: rgba(201, 24, 24)!important;
     overflow: auto;
     position: fixed;
   }
