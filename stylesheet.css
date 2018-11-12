@@ -79,7 +79,7 @@ img {
 
   body {
   /* The image used */
-  background-image: url("BackgroudPic.jpg");
+  background-image: url("images/BackgroudPic.jpg");
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 
