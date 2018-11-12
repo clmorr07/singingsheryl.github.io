@@ -65,7 +65,10 @@ img {
     flex-direction: row;
   }
 
-  
+  .indent {
+    text-indent: 20%;
+  }
+
   .main-footer {
     text-align: center;
     padding: .5em 0;
