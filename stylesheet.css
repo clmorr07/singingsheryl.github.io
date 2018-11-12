@@ -112,9 +112,9 @@ img {
         max-width: 100%;
     }
 }
-
-@media (min-width: 700px) {
-  .indent {
-    text-indent: 14.5%;
+@media (min-width:769px) {
+.indent {
+  text-indent: 14.5%;
   }
 }
+
