@@ -125,8 +125,7 @@ img {
 }
 
 
-@media (
-  min-width:769px) {
+@media (min-width:769px) {
 .indent {
   text-indent: 14.5%;
   }
