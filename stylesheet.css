@@ -138,6 +138,7 @@ img {
   .hb {display: none;}
   .navbar a.icon {
     float: right;
+    display: block;
     background-color: rgb(201, 24, 24);
   }
 }
