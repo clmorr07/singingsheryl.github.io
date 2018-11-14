@@ -61,7 +61,7 @@ img {
     font-family: Brush Script MT, Brush Script Std, cursive;
   }
 
-  .active {
+  a.active {
     background-color: rgb(201, 24, 24);
     color: silver;
   }
@@ -156,6 +156,7 @@ img {
     text-align: center;
     background-color: rgb(201, 24, 24);
   }
+
 
 
 }
