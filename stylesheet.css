@@ -159,12 +159,11 @@ img {
     float: none;
     display: block;
     text-align: center;
-    background-color: rgb(201, 24, 24)!important;
+    color: rgb(201, 24, 24);
     width: 100%;
   }
   a.active {
-    background-color: rgb(201, 24, 24)!important;
-    color: white;
+    color: rgb(201,24,24);
   }
 
 
