@@ -162,7 +162,10 @@ img {
     background-color: rgb(201, 24, 24)!important;
     width: 100%;
   }
-
+  a.active {
+    background-color: rgb(201, 24, 24)!important;
+    color: white;
+  }
 
 
 }
