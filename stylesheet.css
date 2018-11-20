@@ -50,7 +50,7 @@ img {
   /* Add a background color on mouse-over */
   .navbar a:hover {
     background-color: rgb(201, 24, 24);
-    color: silver;
+    color: black;
   }
   
   /* Style the current/active link */
@@ -63,7 +63,7 @@ img {
 
   a.active {
     background-color: rgb(201, 24, 24)!important;
-    color: silver;
+    color: white;
   }
 
   .flex-container {
