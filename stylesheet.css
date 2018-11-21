@@ -103,6 +103,43 @@ img {
     vertical-align: middle;
 }
 
+#pic1 {
+  background: url(images/BGBIO.jpg) top no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+#pic2 {
+  background: url(images/BGBIO3.jpg) top no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.start {
+  position: relative; 
+  max-width: 1000px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.start .finish {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.para {
+  text-align: justify;
+}
+
+.break {
+  column-count: 2;
+  column-fill: auto;
+  column-width: 100%;
+  column-gap: 10px;
+  }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
