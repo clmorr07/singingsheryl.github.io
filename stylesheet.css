@@ -115,6 +115,9 @@ img {
   opacity: 0.6;
 }
 
+li {
+width: justify;
+}
 .start {
   position: relative; 
   max-width: 1000px; /* Maximum width */
@@ -135,7 +138,7 @@ img {
 
 .break {
   column-count: 2;
-  column-fill: auto;
+  column-fill: balance; 
   column-width: 100%;
   column-gap: 10px;
   }
