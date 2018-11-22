@@ -72,6 +72,10 @@ img {
   }
 
   .main-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: .5em 0;
     background-color: rgb(201, 24, 24);
@@ -125,6 +129,9 @@ table, th, td {
   border: 1px solid black;
 }
 
+.show{
+  text-align: center;
+}
 li {
 width: justify;
 }
