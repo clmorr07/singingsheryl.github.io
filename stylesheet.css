@@ -121,6 +121,10 @@ img {
   opacity: 0.6;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 li {
 width: justify;
 }
