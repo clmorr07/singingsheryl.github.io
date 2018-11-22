@@ -115,6 +115,12 @@ img {
   opacity: 0.6;
 }
 
+#pic3 {
+  background: url(images/BGBIO4.jpg) top no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+}
+
 li {
 width: justify;
 }
