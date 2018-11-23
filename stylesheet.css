@@ -188,6 +188,8 @@ width: justify;
   column-gap: 10px;
   }
 
+  
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
