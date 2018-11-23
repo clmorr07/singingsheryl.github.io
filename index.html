@@ -20,7 +20,7 @@
         </style>
     <title>Songbird Entertainment</title>
 </head>
-<body>  
+<body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <header>
           <nav>
@@ -73,14 +73,47 @@
             </a>
           </div>
         </main>
-
-        
         <div class="flex-container">
         <iframe width="25%" src="https://www.youtube.com/embed/Mi_gses7bdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="25%" src="https://www.youtube.com/embed/N9Kv0u1sV38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="25%" src="https://www.youtube.com/embed/j1i9QhZ_zSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="25%" src="https://www.youtube.com/embed/3Kzkml2q3qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+<center><h1>Upcoming Shows</h1></center>
+  <style>
+    h1 {
+      font-style: italic;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    
+    </style>
+      <!-- The grid: four columns -->
+<div class="row1">
+    <div class="column1">
+      <img src="images/FlyPic1.jpg" alt="Nature" onclick="openImg(this);">
+    </div>
+    <div class="column1">
+      <img src="images/FlyPic1.jpg" alt="Snow" onclick="openImg(this);">
+    </div>
+    <div class="column1">
+      <img src="images/FlyPic1.jpg" alt="Mountains" onclick="openImg(this);">
+    </div>
+    <div class="column1">
+      <img src="images/FlyPic1.jpg" alt="Lights" onclick="openImg(this);">
+    </div>  
+  <!-- The expanding image container -->
+  <div class="container1">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+</div>
       <footer class="main-footer">
       <span>&copy;2018 Sheryl Rouse <br> Designed by <a href="https://clmorr07.github.io/codelouisvilleproject.github.io/">Courtney Morrison. </a>All Rights Reserved</span>
     </footer>
