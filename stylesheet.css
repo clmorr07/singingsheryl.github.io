@@ -275,6 +275,19 @@ width: justify;
     background-color: rgb(201, 24, 24)!important;
     width: 100%;
   }
+/* may need to delete if they don't work */
+  .navbar a.active {
+    background-color: rgb(201, 24, 24)!important;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+
+  a.active {
+    background-color: rgb(201, 24, 24)!important;
+    color: white;
+  }
+
 
 
 
