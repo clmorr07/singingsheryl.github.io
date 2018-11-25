@@ -299,7 +299,7 @@ width: justify;
   .navbar a.active {
     background-color: rgb(201, 24, 24)!important;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     font-family: Brush Script MT, Brush Script Std, cursive;
   }
 
