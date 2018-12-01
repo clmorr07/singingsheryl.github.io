@@ -159,18 +159,6 @@ width: justify;
   color: white;
 }
 
-.trans {
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-    transition: width 2s, height 2s, transform 2s;
-}
-
-.trans:hover {
-    width: 250px;
-    height: 250px;
-    -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
-}
-
 .para {
   text-align: justify;
 }
@@ -258,7 +246,19 @@ width: justify;
         max-width: 50%;
     }
 }
+@media (min-width: 850px) {
+  .trans {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
 
+.trans:hover {
+    width: 250px;
+    height: 250px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 700px) {
     .column {
