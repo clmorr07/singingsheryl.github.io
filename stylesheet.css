@@ -258,6 +258,7 @@ width: justify;
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
 }
+
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 700px) {
