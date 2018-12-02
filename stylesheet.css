@@ -126,9 +126,14 @@ img {
 }
 
 #pic4 {
-  background: url(images/CU12.jpg) top no-repeat;
-  background-size: cover;
+  background: url(images/starpic.jpg) top;
+  background-size: contain;
   opacity: 0.6;
+}
+
+#pic5 {
+  background-size: cover;
+  background-color: black;
 }
 
 table, th, td {
